@@ -1,14 +1,16 @@
-# Project
+# LoNLI v1.0
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+We release CheckList-based behavioral testsuite *LoNLI* dataset associated with [Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task
+](https://arxiv.org/abs/2107.07229). We create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 
+1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 
+2) design experiments to study cross-capability information content (leave one out or bring one in); and 
+3) the synthetic nature enable us to control for artifacts and biases.
 
-As the maintainer of this project, please make a few updates:
+## Files
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+1. `data_v2.zip` - Unzip it to find 363 files. Each files is named with the corresponding capability (borrowed from [TaxiNLI](https://github.com/microsoft/TaxiNLI)).
+2. `templates.ipynb` - The python notebook is a single-stop shop for creating data for all templates. It uses the `lexicon.py`
+   - To run necessary requirements, please follow the guidelines in the [CheckList](https://github.com/marcotcr/checklist) repository.
 
 ## Contributing
 
