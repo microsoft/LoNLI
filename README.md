@@ -9,8 +9,10 @@ We release CheckList-based behavioral testsuite *LoNLI* dataset associated with 
 ## Files
 
 1. `data_v2.zip` - Unzip it to find 363 files. Each files is named with the corresponding capability (borrowed from [TaxiNLI](https://github.com/microsoft/TaxiNLI)).
+   - For example `boolean_1.tsv` contains the examples form `boolean_1` template (found in `templates.ipynb`). 
+   - Each file contains three columns "premise", "hypothesis" and "label"
 2. `templates.ipynb` - The python notebook is a single-stop shop for creating data for all templates. It uses the `lexicon.py`
-   - To run necessary requirements, please follow the guidelines in the [CheckList](https://github.com/marcotcr/checklist) repository.
+   - To run the notebook and install necessary requirements, please follow the guidelines in the [CheckList](https://github.com/marcotcr/checklist) repository.
 
 ## Contributing
 
