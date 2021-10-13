@@ -5,6 +5,7 @@ We release CheckList-based behavioral testsuite *LoNLI* dataset associated with 
 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 
 2) design experiments to study cross-capability information content (leave one out or bring one in); and 
 3) the synthetic nature enable us to control for artifacts and biases.
+![Alt text](Otherdatasets.png?raw=true "LoNLI against the spectrum of (a subset of) NLI datasets")
 
 ## Files
 
