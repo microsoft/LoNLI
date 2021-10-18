@@ -1,7 +1,7 @@
 # LoNLI v1.0
 
 We release CheckList-based behavioral testsuite *LoNLI* dataset associated with [Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task
-](https://arxiv.org/abs/2107.07229). *Please note the ArXiv version is outdated. Our updated version is under review and will soon update the version once the anonymity period is over (By November 1).*
+](https://arxiv.org/abs/2107.07229). *Please note that the ArXiv version is outdated. Our updated version is under review and will soon update the version once the anonymity period is over (By November 1).*
 
 We create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 
 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 
@@ -13,7 +13,7 @@ We create a semi-synthetic large test-bench (363 templates, 363k examples) and a
 ## Files
 
 1. `data/data_v2.zip` - Unzip it to find 363 files. Each files is named with the corresponding capability (borrowed from [TaxiNLI](https://github.com/microsoft/TaxiNLI)).
-   - For example `boolean_1.tsv` contains the examples form `boolean_1` template (found in `templates.ipynb`). 
+   - For example `boolean_1.tsv` contains the examples form `boolean_1` template (found in `data/checklist_master.tsv`). 
    - Each file contains three columns "premise", "hypothesis" and "label"
 2. `data/checklist_master.tsv` - The list of all 363 templates and corresponding generated file-names.
 3. `templates.ipynb` - The python notebook is a single-stop shop for creating data for all templates. It uses the `lexicon.py`
