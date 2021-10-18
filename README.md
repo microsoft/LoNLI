@@ -5,6 +5,7 @@ We release CheckList-based behavioral testsuite *LoNLI* dataset associated with 
 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 
 2) design experiments to study cross-capability information content (leave one out or bring one in); and 
 3) the synthetic nature enable us to control for artifacts and biases.
+
 ![Alt text](Otherdatasets.png?raw=true "LoNLI against the spectrum of (a subset of) NLI datasets")
 
 ## Files
@@ -12,8 +13,11 @@ We release CheckList-based behavioral testsuite *LoNLI* dataset associated with 
 1. `data_v2.zip` - Unzip it to find 363 files. Each files is named with the corresponding capability (borrowed from [TaxiNLI](https://github.com/microsoft/TaxiNLI)).
    - For example `boolean_1.tsv` contains the examples form `boolean_1` template (found in `templates.ipynb`). 
    - Each file contains three columns "premise", "hypothesis" and "label"
-2. `templates.ipynb` - The python notebook is a single-stop shop for creating data for all templates. It uses the `lexicon.py`
-   - To run the notebook and install necessary requirements, please follow the guidelines in the [CheckList](https://github.com/marcotcr/checklist) repository.
+2. `checklist_master.tsv` - The list of all 363 templates and corresponding generated file-names.
+3. `templates.ipynb` - The python notebook is a single-stop shop for creating data for all templates. It uses the `lexicon.py`
+   - The notebook needs the following packages to run: `copy`, `num2words`, `checklist`
+   - To run the notebook, please install using `pip install -r requirements.txt` 
+   - Please also checkout the [CheckList](https://github.com/marcotcr/checklist) repository.
 
 ## Contributing
 
