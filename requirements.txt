@@ -1,0 +1,2 @@
+checklist==0.0.11
+num2words==0.5.10
