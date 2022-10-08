@@ -1,7 +1,7 @@
 # LoNLI v1.0
 
-We release CheckList-based behavioral testsuite *LoNLI* dataset associated with [Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task
-](https://arxiv.org/abs/2107.07229). *Please note that the ArXiv version is outdated. Our updated version is under review and will soon update the version once the anonymity period is over.*
+We release CheckList-based behavioral testsuite *LoNLI* dataset associated with [LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI
+](https://arxiv.org/abs/2112.02333). *Our work is under review at LREV. We will soon update the version once accepted.*
 
 We create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 
 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 
